@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: serif;
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+
+}
+
+.p {
+  text-align: center;
+  color: white;
+
+}
+
+
+.box {
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid;
+  border-image: linear-gradient(blue, red) 27 / 3px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+
+}
+
+.clock {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.dat {
+  display: block;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
